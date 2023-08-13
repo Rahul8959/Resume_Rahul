@@ -1,0 +1,48 @@
+.MainContainer{
+    display: flex;
+    /* flex-direction: column; */
+    width: 90%;
+}
+/* First Section  */
+.Profileimg{
+    height: 235px;
+    
+}
+
+.name {
+    padding-top: 200px;
+    font-size: 1.8rem;
+}
+
+.persnal-info i {
+    font-size: 1rem;
+}
+
+.skill-h1 {
+
+    font-size: 1.2rem;
+}
+
+.second-container{
+    height: 1300px;
+}
+.uper-box{
+    height: 510px;
+}
+.down-box{
+    height: 463px;
+}
+
+.persnal-info {
+    margin: 0px 7px 0px;
+}
+
+.skills{
+    padding: 0px 0px;
+    margin: 0px 5px;
+}
+
+#language-section{
+    height: 610px;
+    margin: 10px 5px;
+}

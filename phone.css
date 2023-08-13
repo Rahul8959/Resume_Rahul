@@ -1,0 +1,34 @@
+.MainContainer{
+    flex-direction: column;
+    width: 90%;
+}
+
+.first-section{
+    margin:15px 0px ;
+    width: 100%; 
+    height: 967px;
+}
+#language-section {
+    height: 200px;
+}
+.second-container{
+    height: 1500px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.uper-box {
+    height: 632px;
+}
+.down-box{
+    height: 518px;
+}
+.down-box2 {
+    height: 315px;
+}
+.social-media a {
+    font-size: 1.6rem;
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+}

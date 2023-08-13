@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+    font-family: math;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+body{
+    background-color: rgb(247, 245, 243);
+}
+.resume-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainContainer{
+    display: flex;
+    width: 80%;
+    /* border: 2px solid black; */
+}
+
+.background-color{
+    position: relative;
+    background-color: white;
+}
+.resume-box-shadow{
+    box-shadow: 5px 5px 10px 5px rgba(158, 156, 156, 0.329);
+}
+/* First Section  */
+.first-section{
+ width: 38%;
+ height: 1240px;
+ margin: 10px 0px;
+ box-shadow: 5px 5px 10px 5px rgba(158, 156, 156, 0.329);
+}
+.Profileimg{
+    position: relative;
+    height: 325px;
+    max-width: 100%;    
+    margin: 0 auto;
+    overflow: hidden;
+    transition: height 0.8s;
+}
+
+.Profileimg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/Picture3.jpg) no-repeat center center/cover;;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+}
+.name-sec{
+    height: 450px;
+    width: 100%;
+
+}
+.name{
+    padding-top: 275px;
+    padding-left: 15px;
+    font-size: 2.5rem;
+    color: rgb(27, 20, 44);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.persnal-info{
+    margin: 0px 15px 0px;
+    height: 135px;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(184, 179, 179);
+}
+
+.persnal-info i{
+    font-size: 1.1rem;
+    color: #009688;
+    margin: 5px 0px;
+}
+
+.persnal-info i span {
+    font-size: 1.1rem;
+    color: rgb(90, 80, 80);
+}
+
+
+.skills{
+    height: 295px;
+    width: 95%;
+    padding: 0px 5px;
+    margin: 0px 5px;
+    border-bottom: 1px solid rgb(184, 179, 179);
+}
+.skill-h1{
+    color: #009688;
+    font-size: 1.4rem;
+     
+}
+.skills h2{
+    font-size: 1.1rem;
+    margin: 10px 10px;
+    color: rgb(90, 80, 80)
+}
+
+.light-gray p{
+    margin: 0px;
+}
+
+.light-gray{
+    background-color: rgb(226, 222, 222);
+    width: 85%;
+    height: 20px;
+    border-radius: 20px;
+    margin: 0px 18px;
+}
+
+.greenc{
+    background-color: #009688;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+    font-size: 1rem;
+}
+
+#language-section{
+    margin: 10px 0px;
+    height: 475px;
+    border-bottom: none;
+}
+.languages{
+    margin: 10px 10px;
+    height: 335px;
+    width: 95%;
+    padding: 0px 15px;
+    border-bottom: 1px solid rgb(184, 179, 179);
+    font-size: 0.8rem;
+}
+
+.glob-simbol{
+    font-size: 1.8rem;
+    color: rgba(10, 131, 30, 0.822);
+}
+
+.second-container {
+    /* border: 2px solid black; */
+    height: 1258px;
+    width: 70%;
+    margin: 10px;
+
+}
+.uper-box{
+    height: 450px;
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 10px 5px rgba(158, 156, 156, 0.329);
+
+}
+
+
+/* Second Section  */
+.second-section{
+    height:620px;
+    width: 70%;
+    margin: 10px;
+    padding: 0px 10px;
+    box-shadow: 10px 10px 10px rgb(158, 156, 156);
+}
+.Project-icon i{
+    font-size: 1.4rem;
+    margin: 10px 0px 0px 10px;
+}
+
+.img-to-text{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+    padding: 10px 0px;
+    margin: 2px 20px;
+}
+.img-to-text h3, i, p{
+    margin: 5px 0px;
+    
+}
+.img-to-text h3{
+    font-size: 1.2rem;
+}
+.img-to-text i{
+    font-size: 1rem;
+    color: #009688;
+}
+.img-to-text i span{
+    background-color: #009688;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+.img-to-text p{
+    font-size: 0.95rem;
+}
+
+/* Third Section  */
+.down-box{
+    margin: 10px 0px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 5px rgba(158, 156, 156, 0.329);
+}
+
+
+
+/* Utility class */
+.text-color{
+    color: rgb(116, 113, 113);
+}
+
+.third-section{
+    padding: 15px 30px;
+}
+.reward-section{
+    margin: 5px;
+}
+.certificat-scation {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.certificat-scation i{
+    color: #009688;
+    margin: 5px 0px;
+}
+
+.achievmnets i{
+    color: #009688;
+}
+
+.achievmnets{
+border-bottom: none;
+ margin: 5px 5px;
+}
+.achievmnets div{
+
+    font-size: 1rem;
+}
+.achievmnets i,span{
+    font-size:0.9rem;
+}
+.down-box2{
+    height: 280px;
+    padding: 5px;
+}
+/* Footer Section  */
+.social-media a{
+    color: white;
+    font-size: 1.2rem;
+}
+.footer-section{
+    
+    background-color: #009688;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer-section p{
+    padding-bottom: 10px;
+}
